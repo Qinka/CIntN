@@ -4,10 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Qinka.CIntN;
+
+namespace Qinka.CIntN
+{
+    public enum Sign { Positive, Negative }
+}
+
+
 
 namespace Qinka.CIntN.Sample
 {
-    public enum Sign  {Positive,Negative}
+
     public class CIntN
     {
         //变量和属性
